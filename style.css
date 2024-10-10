@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main a {
+    text-decoration: none;
+    color: #f1f1f1;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: rgb(39, 188, 234);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+main a:hover {
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 15px -5px #444;
+}
